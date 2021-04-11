@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(46, 45, 45);
+    font-family: 'Alegreya Sans SC';font-size: 22px;
+}
+
+
+
+h2 {
+    color: aliceblue;
+    font-size:3em;
+    text-align: center;
+}
+
+#clock {
+    position: relative;
+    right:50%;
+    left:50%;
+    color:aliceblue;
+}
+
+#lolcatImage {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    left: 25%;
+    padding:4% 0;
+}
+
+#MyClock {
+    color: aliceblue;
+    font-size: 3em;
+    text-align: center;
+  
+}
+
+#timeEvent {
+    font-size: 1.5em;
+    color:aliceblue;
+    text-align: center;
+    margin-top:  3%;
+}
