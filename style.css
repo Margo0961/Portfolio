@@ -21,11 +21,7 @@ h2 {
 #lolcatImage {
     max-width: 100%;
     height: auto;
-    position: absolute;
-    top: 50%;
-    right: 25%;
-    left: 25%;
-    padding:4% 0;
+    padding:4% 25% 2% 25%;
 }
 
 #MyClock {
@@ -40,4 +36,27 @@ h2 {
     color:aliceblue;
     text-align: center;
     margin-top:  3%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+
+#wakeUpTimeSelector {
+    margin: 0 2%;
+}
+#lunchTimeSelector {
+    margin: 0 2%;
+}
+
+#partyTimeButton {
+    margin: 0 45%;
+    padding: 1% 3%;
 }
