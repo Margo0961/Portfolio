@@ -119,6 +119,29 @@ var updateClock = function()
     };
     updateClock();
 
+    var oneSecond = 1000;
+    setInterval(updateClock, oneSecond);
+
+    var partyButton =
+    document.getElementById("partyTimeButton");
+
+    var partyEvent = function()
+    {
+      if(partytime < 0)
+      {
+        partytime = new Date().getHours();
+        partyTimeButton.innerText ="Party Over!";
+      }
+      else
+      {
+        partytime = -1;
+        partyTimeButton.innerText = "Party Time!";
+      }
+  };
+
+    partyButton.addEventListener("click", partyEvent);
+    partyEvent();
+
 
 
 
