@@ -1,0 +1,70 @@
+<head>
+    <!DOCTYPE html>
+<html lang="pl">
+  <head>
+      <title>Calculator</title>
+      <link rel="stylesheet" href="style.css">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <div class ="container-grid">
+        <div class="grid-item1"></div>
+
+
+  <div id="grid-item2">
+      
+    <div class="title">
+        <h2>Tip Calculator</h2>
+        <div class="content">
+            <form>
+                <p>How much was your bill?</p>
+                
+                    $ <input id="billamt" type="text" placeholder="Bill Amount">
+
+                    <p>How was your service?
+                    </p>
+                    <select id="serviceQual">
+                        <option disabled selected value="0">Choose an option</option>
+                        <option value="0.3">30&#37; &#45; Outstanding</option>
+                        <option value="0.2">20&#37; &#45; Good</option>
+                        <option value="0.15">15&#37; &#45; It was OK</option>
+                        <option value="0.1">10&#37; &#45; Bad</option>
+                        <option value="0.05">5&#37; &#45; Terrible</option>
+                  
+                    </select>
+            </form>
+
+            <p>How many people are sharing the bill?</p>
+
+             <input id="peopleamt" type="text" placeholder="Number of People"> People
+            
+             <button type="button" id="calculate">Calculate</button>
+
+             <div id="totalTip">
+                 <sup>$</sup><span id="tip">0.00</span>
+                 <small id="each">each</small>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="grid-item3"></div>
+    </div>
+
+
+<script type="text/javascript" src="scripts.js"></script>
+
+
+
+
+
+
+
+
+
+</body>
