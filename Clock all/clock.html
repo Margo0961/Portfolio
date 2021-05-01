@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+      <title>Clock</title>
+      <link rel="stylesheet" href="style.css">
+       
+      <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+  </head>
+  <body>
+      <header>
+          <h2>Your event clock</h2>
+      </header>
+
+      <div id="MyClock"></div>
+
+      <img id="lolcatImage" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/08/normalTime.jpg" alt="lolcat">
+
+      <blockquote id="timeEvent">This is where time events are reported</blockquote>
+   <div class="options" style="display: flex;">
+    <p>set Wake Up Time</p>
+    <select id="wakeUpTimeSelector">
+       <option value="1">1 am - 2 am</option>
+       <option value="2">2 am - 3 am</option>
+       <option value="3">3 am - 4 am</option>
+       <option value="4">4 am - 5 am</option>
+       <option value="5">5 am - 6 am</option>
+       <option value="6">6 am - 7 am</option>
+       </select>
+</div>
+<br>
+<div class="options" style="display: flex;">
+    <p>set Lunch Time</p>
+    <select id="lunchTimeSelector">
+       <option value="1">1 am - 2 am</option>
+       <option value="2">2 am - 3 am</option>
+       <option value="3">3 am - 4 am</option>
+       <option value="4">4 am - 5 am</option>
+       <option value="5">5 am - 6 am</option>
+       <option value="6">6 am - 7 am</option>
+       </select>
+</div>
+<br>
+<button id="partyTimeButton">Party</button>
+ </div>
+
+
+ <script src="scripts.js"></script> 
+  </body>
+</html>
