@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(46, 45, 45);
+    font-family: 'Alegreya Sans SC';font-size: 22px;
+}
+
+
+
+h2 {
+    color: aliceblue;
+    font-size:3em;
+    text-align: center;
+}
+
+#clock {
+    position: relative;
+    right:50%;
+    left:50%;
+    color:aliceblue;
+}
+
+#lolcatImage {
+    max-width: 100%;
+    height: auto;
+    padding:4% 25% 2% 25%;
+}
+
+#MyClock {
+    color: aliceblue;
+    font-size: 3em;
+    text-align: center;
+  
+}
+
+#timeEvent {
+    font-size: 1.5em;
+    color:aliceblue;
+    text-align: center;
+    margin-top:  3%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+
+#wakeUpTimeSelector {
+    margin: 0 2%;
+}
+#lunchTimeSelector {
+    margin: 0 2%;
+}
+
+#partyTimeButton {
+    margin: 0 45%;
+    padding: 1% 3%;
+}
