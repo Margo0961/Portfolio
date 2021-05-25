@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #18192D;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+}
+
+
+
+.menu {
+
+   
+}
+.menu-list {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 3%;
+}
+
+li {
+    font-size: 1.2vw;
+    color: white; 
+}
+
+
+
+video {
+    display:flex;
+    width: 100%;
+    }
+
+    .heading {
+        color: white;
+        margin-left: 20%;
+        margin-top: 15%;
+    }
+
+    .big-title {
+        font-size: 4vw;
+        letter-spacing: 0.3em;
+        line-height: 2;
+    }
+
+    .small-title {
+        font-size: 1.5vw;
+        letter-spacing: 0.3em;
+    }
+
+    .section-paragraph {
+        position: relative;
+        margin-top: 26%;
+        color: white;
+        background-image:url("jr-korpa-fCkhpN8dI1M-unsplash.jpg");
+        background-size: 100% auto;
+        padding: 20px; 
+    }
+    .about-title {
+        margin-top: 10%;
+        text-align: center;
+        font-size:6vh;
+    }
+   
+    .paragraph {
+        margin:5% 15% 10% 15%;
+        font-size:3vh;
+        letter-spacing: 0.2em;
+        line-height: 2;
+        text-align: center;
+    }
