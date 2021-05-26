@@ -67,7 +67,7 @@ video {
         position: relative;
         margin-top: 26%;
         color: white;
-        background-image:url("jr-korpa-fCkhpN8dI1M-unsplash.jpg");
+        background-image:url("zane-lee-IHj0xtWtLKE-unsplash.jpg");
         background-size: 100% auto;
         padding: 20px; 
     }
@@ -84,3 +84,23 @@ video {
         line-height: 2;
         text-align: center;
     }
+
+    .mywork-title {
+        color: white;
+        margin-top: 8%;
+        text-align: center;
+        font-size:6vh;
+    }
+
+    .grid-container {
+        margin: 6%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      .grid-item {
+          color: white;
+          padding: 20px;
+        text-align: center;
+        
+      }
