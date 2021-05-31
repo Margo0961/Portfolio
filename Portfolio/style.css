@@ -104,3 +104,44 @@ video {
         text-align: center;
         
       }
+
+      
+
+
+
+      .contact-section {
+          justify-content: center;
+          margin-top: 10%;
+        background-color: #46475B;
+      }
+    
+    .contact-title {
+        color: white;
+        font-size:6vh;
+        margin: 30% 0 20% 0;
+        text-align:center;
+        letter-spacing: 8px;
+
+      }
+    
+      .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12%;
+        justify-content: center;
+        margin-top: 5%;
+      }
+
+
+      .contact-paragraph {
+          color: white;
+      }
+
+
+    .contact-image {
+    
+    }
+
+    .phone {
+        margin-top: 20%;
+    }
