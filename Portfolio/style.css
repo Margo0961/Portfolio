@@ -67,9 +67,10 @@ video {
         position: relative;
         margin-top: 26%;
         color: white;
-        background-image:url("zane-lee-IHj0xtWtLKE-unsplash.jpg");
+        background-image:url("Component 1.png");
         background-size: 100% auto;
         padding: 20px; 
+        overflow: hidden;
     }
     .about-title {
         margin-top: 10%;
@@ -78,11 +79,12 @@ video {
     }
    
     .paragraph {
-        margin:5% 15% 10% 15%;
+        margin:5% 15% 12% 15%;
         font-size:3vh;
         letter-spacing: 0.2em;
         line-height: 2;
         text-align: center;
+    
     }
 
     .mywork-title {
@@ -100,7 +102,7 @@ video {
 
       .grid-item {
           color: white;
-          padding: 20px;
+          padding: 8%;
         text-align: center;
         
       }
@@ -127,7 +129,7 @@ video {
       .contact-content {
         display: flex;
         flex-wrap: wrap;
-        gap: 12%;
+        gap: 10%;
         justify-content: center;
         margin-top: 5%;
       }
@@ -139,9 +141,10 @@ video {
 
 
     .contact-image {
-    
+        justify-content: right;
     }
 
     .phone {
         margin-top: 20%;
+        margin-bottom: 20%;
     }
