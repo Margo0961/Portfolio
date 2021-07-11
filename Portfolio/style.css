@@ -4,11 +4,11 @@
     padding: 0;
     box-shadow: border-box;
     list-style: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
-    background-color: #18192D;
+    background-color: #18212D;
 }
 
 .video-background {
@@ -40,34 +40,31 @@ li {
 }
 
 
-
-video {
-    display:flex;
-    width: 100%;
-    }
-
     .heading {
         color: white;
-        margin-left: 20%;
         margin-top: 15%;
     }
 
     .big-title {
-        font-size: 4vw;
+        font-size: 3vw;
         letter-spacing: 0.3em;
         line-height: 2;
+        text-align: center;
     }
 
     .small-title {
+        margin-top: 2%;
         font-size: 1.5vw;
         letter-spacing: 0.3em;
+        text-align:center;
     }
 
     .section-paragraph {
         position: relative;
         margin-top: 26%;
         color: white;
-        background-image:url("Component 1.png");
+        background-image:url("images/about.png");
+        width: 100%;
         background-size: 100% auto;
         padding: 20px; 
         background-repeat: no-repeat;
@@ -121,7 +118,7 @@ video {
       .contact-section {
         
           justify-content: center;
-        background-color: #46475B;
+        background-color: #464E5B;
         
       }
     
