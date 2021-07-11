@@ -70,7 +70,8 @@ video {
         background-image:url("Component 1.png");
         background-size: 100% auto;
         padding: 20px; 
-        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .about-title {
         margin-top: 10%;
@@ -98,29 +99,36 @@ video {
         margin: 6%;
         display: grid;
         grid-template-columns: auto auto auto;
+        overflow: hidden;
       }
 
       .grid-item {
           color: white;
           padding: 8%;
         text-align: center;
+        transition-duration: 1s;
         
       }
+   
+      .grid-item:hover {
+        transform:scale(1.05);
+        transition-duration: 1s;
+      }
 
-      
 
 
 
       .contact-section {
+        
           justify-content: center;
-          margin-top: 10%;
         background-color: #46475B;
+        
       }
     
     .contact-title {
         color: white;
         font-size:6vh;
-        margin: 30% 0 20% 0;
+        margin: 7%;
         text-align:center;
         letter-spacing: 8px;
 
@@ -128,8 +136,9 @@ video {
     
       .contact-content {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 10%;
+        gap: 3%;
         justify-content: center;
         margin-top: 5%;
       }
@@ -137,14 +146,51 @@ video {
 
       .contact-paragraph {
           color: white;
+          border: 1px solid white;
+          padding: 5%;
+          margin: 5%;
+          flex: 1;
       }
 
 
     .contact-image {
         justify-content: right;
+        flex: 1.2;
     }
 
+
+    .email {
+        font-size: 3vh;
+    }
     .phone {
-        margin-top: 20%;
-        margin-bottom: 20%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 3vh;
+        
+    }
+
+
+    @media (max-width: 1200px) {
+
+        .about-title {
+            font-size: 5vh;
+        }
+      
+        .paragraph {
+            font-size: 2vh;
+        }
+
+        .mywork-title {
+            font-size: 5vh;
+        }
+
+        .contact-content {
+            flex-direction: column;
+        }
+
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+        }
+
     }
